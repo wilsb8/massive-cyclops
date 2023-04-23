@@ -1,0 +1,31 @@
+{
+  "name": "massive-cyclops",
+  "version": "1.0.0",
+  "description": "My Business Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsb8/massive-cyclops.git"
+  },
+  "keywords": [
+    "website",
+    "business"
+  ],
+  "author": "William A. Ferguson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsb8/massive-cyclops/issues"
+  },
+  "homepage": "https://github.com/wilsb8/massive-cyclops#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
