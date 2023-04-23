@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+;
+
+h1 {
+    font-family: "Splash";
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: "Cutive Mono";
+    font-weight: bold;
+}
+
