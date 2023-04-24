@@ -97,18 +97,27 @@
     <div class="container text-center">
         <h2>Contact Me</h2>
     </div>
-    <form>
-      <div class="form-group">
-        <label for="nameInput">Name</label>
-        <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
-      </div>
-      <div class="form-group">
-        <label for="emailInput">Email address</label>
-        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter your email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    <div class="d-flex justify-content-center">
+      <form class="col-md-6">
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="emailInput">Email address</label>
+          <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter your email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="messageInput">Message</label>
+          <textarea class="form-control" id="messageInput" rows="5"></textarea>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+    
     
 </section>
 <!-- footer -->
